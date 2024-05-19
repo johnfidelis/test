@@ -10,13 +10,17 @@
 
 .padding-spacing{
   padding: 5rem 10rem;
-  border: solid red;
 
+}
+.spec-spacing{
+  padding: 100px;
 }
 
 @media screen and (max-width: 480px) {
   .padding-spacing{
     padding: 2rem 3rem;
-    border: solid green;
+  }
+  .spec-spacing{
+    padding: 30px 0px;
   }
 }
