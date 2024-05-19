@@ -7,3 +7,16 @@
 .css-color-white li a, .css-color-white {
   color: #ffffff !important;
 }
+
+.padding-spacing{
+  padding: 5rem 10rem;
+  border: solid red;
+
+}
+
+@media screen and (max-width: 480px) {
+  .padding-spacing{
+    padding: 2rem 3rem;
+    border: solid green;
+  }
+}
