@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ////////////// NAVBAR ///////////// -->
+    <header>
+      <nav class="navbar navbar-expand-lg css-background">
+        <div class="container-fluid">
+          <a class="navbar-brand css-color-white">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            style="justify-content: end"
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 css-color-white">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ////////////// HERO ///////////// -->
+
+    <section>
+      <!-- ADS -->
+      <div class="text-center p-3">
+        <p class="h5">Free Shipping On Orders Over $75</p>
+      </div>
+
+      <div
+        style="
+          background: url(./assets/HeroBg.svg);
+          height: 43vh;
+          padding: 100px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div>
+          <div>
+            <p class="h3 css-color-white">PRODUCT LINE</p>
+            <p class="h6 css-color-white">Subtitle</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ////////////// TEXT ///////////// -->
+
+    <section>
+      <div style="margin: 5rem 10rem">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          consequatur odit magni reprehenderit autem dolor ex explicabo dolores
+          rem consequuntur cumque minima repudiandae iure, vero voluptates velit
+          incidunt vitae placeat, quia voluptas. Similique quibusdam enim
+          aliquam corporis quo
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          consequatur odit magni reprehenderit autem dolor ex explicabo dolores
+          rem consequuntur cumque minima repudiandae iure, vero voluptates velit
+          incidunt vitae placeat, quia voluptas. Similique quibusdam enim
+          aliquam corporis quo
+        </p>
+      </div>
+    </section>
+
+    <!-- ////////////// SPEC ///////////// -->
+
+    <section style="background-color: #dee1e6">
+      <div class="grid text-center" style="padding: 100px">
+        <div class="g-col-6 g-col-md-4" style="margin: auto">
+          <div>
+            <p>01 Spec 01</p>
+            <hr style="color: red; width: 70px" />
+          </div>
+          <div>
+            <p>01 Spec 01</p>
+            <hr style="color: red; width: 70px" />
+          </div>
+        </div>
+
+        <div class="g-col-6 g-col-md-4" style="margin: auto;">
+          <div>
+            <p style="color: gray; font-size: 30px;">Spec</p>
+            <!-- <hr style="color: red; width: 70px" /> -->
+          </div>
+          <div>
+            <img
+              src="data:image/jpeg;base64,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"
+              width="120px"
+              style="border-radius: 100%; height: 120px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="g-col-6 g-col-md-4" style="margin: auto">
+          <div>
+            <p>01 Spec 01</p>
+            <hr style="color: red; width: 70px" />
+          </div>
+          <div>
+            <p>01 Spec 01</p>
+            <hr style="color: red; width: 70px" />
+          </div>
+        </div>
+      </div>
+      <div
+        style="padding: 5rem 10rem; background-color: #0d2c5e"
+        class="css-color-white"
+      >
+        <p class="h4" style="text-align: center; color: #cc1616">
+          10R80 XPL PRO-LOC BILLET TORQUE CONVERTER 260MM
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          consequatur odit magni reprehenderit autem dolor ex explicabo dolores
+          rem consequuntur cumque minima repudiandae iure, vero voluptates velit
+          incidunt vitae placeat, quia voluptas. Similique quibusdam enim
+          aliquam corporis quo
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          consequatur odit magni reprehenderit autem dolor ex explicabo dolores
+          rem consequuntur cumque minima repudiandae iure, vero voluptates velit
+          incidunt vitae placeat, quia voluptas. Similique quibusdam enim
+          aliquam corporis quo
+        </p>
+      </div>
+    </section>
+
+    <!-- ////////////// SPEC ///////////// -->
+
+    <section style="background-color: #dee1e6">
+      <div
+        class="grid text-center"
+        id="card-container"
+        style="padding: 3rem"
+      ></div>
+
+      <!-- /////////////////////////////// -->
+      <div
+        style="padding: 5rem 10rem; background-color: #0d2c5e"
+        class="css-color-white"
+      >
+        <p class="h4" style="text-align: center; color: #cc1616">
+          10R80 XPL PRO-LOC BILLET TORQUE CONVERTER 260MM
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          consequatur odit magni reprehenderit autem dolor ex explicabo dolores
+          rem consequuntur cumque minima repudiandae iure, vero voluptates velit
+          incidunt vitae placeat, quia voluptas. Similique quibusdam enim
+          aliquam corporis quo
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          consequatur odit magni reprehenderit autem dolor ex explicabo dolores
+          rem consequuntur cumque minima repudiandae iure, vero voluptates velit
+          incidunt vitae placeat, quia voluptas. Similique quibusdam enim
+          aliquam corporis quo
+        </p>
+      </div>
+
+      <!-- ///////////////////////// -->
+      <footer style="background-color: #07214b">
+        <p class="h5 css-color-white" style="text-align: center; padding: 10px">
+          10R80 XPL PRO-LOC BILLET TORQUE CONVERTER 260MM
+        </p>
+      </footer>
+    </section>
+
+    <script>
+      document.getElementById("card-container").innerHTML = [1, 2, 3, 4, 5, 6]
+        .map(
+          () => `
+        <div class="g-col-6 g-col-md-4" style="margin: auto">
+          <div class="card" style="width: 25vw; height: 270px; background-color: #0D2C5E;">
+            <div class="card-body">
+            
+            </div>
+          </div>
+        </div>
+      `
+        )
+        .join("");
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

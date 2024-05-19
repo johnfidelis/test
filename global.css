@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-13xl: 32px;
+    --font-size-21xl: 40px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslateblue-100: #0d2c5e;
+    --color-crimson: #d21919;
+    --color-black: #000;
+    --color-gray-100: rgba(0, 0, 0, 0.7);
+  
+    /* Gaps */
+    --gap-base: 16px;
+    --gap-3xs: 10px;
+    --gap-5xl: 24px;
+    --gap-22xl: 41px;
+  }
+
+
+  /* NEW CODE SECTION */
+  .wsm {
+    font-weight: 500;
+  }
+  .product,
+  .wsm {
+    position: relative;
+  }
+  .product-parent {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    font-size: var(--font-size-xl);
+  }
+  .desktop-5-inner,
+  .product-parent,
+  .wsm-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .wsm-parent {
+    flex-direction: row;
+    align-items: center;
+    gap: 519px;
+  }
+  .desktop-5-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0c2c5e;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    border: solid red;
+    padding: 20px 117px;
+    font-size: var(--font-size-13xl);
+  }
+  .free-shipping-on {
+    position: absolute;
+    top: 104px;
+    left: calc(50% - 197px);
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  .frame-child {
+    width: 1440px;
+    position: relative;
+    height: 348px;
+    z-index: 0;
+  }
+  .product-line {
+    position: relative;
+    letter-spacing: 0.03em;
+  }
+  .subtitle {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+  }
+  .product-line-parent,
+  .vector-parent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .product-line-parent {
+    margin: 0 !important;
+    top: 106px;
+    left: 120px;
+    gap: 8px;
+    z-index: 1;
+  }
+  .vector-parent {
+    top: 157px;
+    left: 0;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-21xl);
+  }
+  .lorem-lorem-lorem {
+    margin: 0;
+  }
+  .lorem-lorem-lorem-lorem-lorem-parent {
+    position: absolute;
+    top: 561px;
+    left: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    color: var(--color-black);
+  }
+  .spec-01,
+  .specs {
+    position: relative;
+    font-weight: 600;
+  }
+  .spec-01 {
+    color: var(--color-black);
+  }
+  .parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .frame-item {
+    width: 100px;
+    position: relative;
+    border-top: 4px solid var(--color-crimson);
+    box-sizing: border-box;
+    height: 4px;
+  }
+  .frame-container,
+  .frame-div,
+  .frame-group {
+    position: absolute;
+    top: 8px;
+    left: calc(50% - 465.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-22xl);
+  }
+  .frame-container,
+  .frame-div {
+    top: 196px;
+  }
+  .frame-div {
+    left: calc(50% + 315.5px);
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 154px);
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 300px;
+    height: 300px;
+  }
+  .frame-parent1 {
+    position: absolute;
+    top: 12px;
+    left: 783px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-22xl);
+  }
+  .frame-parent {
+    width: 931px;
+    position: relative;
+    height: 300px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-100);
+  }
+  .desktop-5-child,
+  .specs-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .specs-parent {
+    align-items: center;
+    gap: 51px;
+  }
+  .desktop-5-child {
+    position: absolute;
+    top: 788px;
+    left: 0;
+    background-color: #dee1e6;
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 35px 254px;
+    font-size: var(--font-size-21xl);
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .lorem-lorem-lorem-lorem-lorem-group,
+  .r80-xpl-pro-loc-billet-torque-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .lorem-lorem-lorem-lorem-lorem-group {
+    align-items: flex-start;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+  }
+  .r80-xpl-pro-loc-billet-torque-parent {
+    align-items: center;
+    z-index: 0;
+  }
+  .frame-child2 {
+    width: 100px;
+    margin: 0 !important;
+    position: absolute;
+    top: 116px;
+    left: 406px;
+    height: 39px;
+    z-index: 1;
+  }
+  .frame-parent2 {
+    position: absolute;
+    top: 1275px;
+    left: calc(50% - 720px);
+    background-color: var(--color-darkslateblue-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 56px 135px 66px;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-13xl);
+    color: #cc1616;
+  }
+  .frame-child3 {
+    position: absolute;
+    top: 116px;
+    left: 406px;
+    width: 100px;
+    height: 39px;
+  }
+  .r80-xpl-pro-loc1 {
+    position: absolute;
+    top: 56px;
+    left: calc(50% - 456px);
+    font-size: var(--font-size-13xl);
+    font-weight: 500;
+    color: #cd1616;
+  }
+  .lorem-lorem-lorem-container4,
+  .lorem-lorem-lorem-container5 {
+    position: absolute;
+    top: 119px;
+    left: calc(50% - 585px);
+    font-weight: 500;
+  }
+  .lorem-lorem-lorem-container5 {
+    top: 230px;
+  }
+  .desktop-5-item,
+  .frame-parent3 {
+    position: absolute;
+    left: calc(50% - 720px);
+    width: 1440px;
+    overflow: hidden;
+  }
+  .frame-parent3 {
+    top: 2390px;
+    background-color: var(--color-darkslateblue-100);
+    height: 424px;
+  }
+  .desktop-5-item {
+    top: 1275px;
+    background-color: rgba(13, 44, 94, 0.2);
+    height: 17px;
+  }
+  .frame-child4 {
+    width: 325px;
+    position: relative;
+    background-color: var(--color-darkslateblue-100);
+    height: 270px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-parent4,
+  .frame-parent5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .frame-parent4 {
+    position: absolute;
+    top: 1746px;
+    left: 217px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .r80-xpl-pro-loc2 {
+    position: absolute;
+    top: calc(50% - 14.5px);
+    left: calc(50% - 340px);
+    font-weight: 500;
+  }
+  .r80-xpl-pro-loc-billet-torque-wrapper {
+    position: absolute;
+    top: 2814px;
+    left: calc(50% - 720px);
+    background-color: #07214b;
+    width: 1440px;
+    height: 75px;
+    overflow: hidden;
+  }
+  .desktop-5 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 2890px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  
+  
